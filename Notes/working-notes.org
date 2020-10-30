@@ -1,0 +1,23 @@
+
+* First attempt
+I've got to stop thinking in terms of changing state. And yet, the game state has to be somewhere.
+
+=with-local-vars= might do the trick but it is ugly.
+
+=loop= and =recur= actually solves it for the repl. My main concern is that yes I can probably write everything else as pure functions, returning a modified =game-state= object. But is this not just a global God variable in disguise? The benefits is that by keeping it to one object I am enabling, at a later stage, multiple concurrent sessions, each with their own =game-state=.
+
+Data structures are important. Should I keep all rooms in a single vector, or a =def= per room? one =def= per room and a =lookup map= is maybe the way to go.
+
+Is the initial state resources or code. => code!
+* Discrete math
+I've sort of re-invented procedural programming with the help of intermediate variables in a =let=. I've got to stop doing that.
+
+Especially the pattern "I've got a collection of something and I want to find all overlapping elements in this other collection". =(filter #(some ...))= gets boring real quick.
+
+The solution is set theory. union, difference, intersection etc.
+
+
+
+
+
+
