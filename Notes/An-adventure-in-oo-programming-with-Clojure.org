@@ -18,7 +18,9 @@ Specifically, I wanted to learn more about Clojure because:
 
 - It is lisp. I've done my fair share of programming in emacs-lisp and I like the simplicity and elegance of it. So how hard can it be to learn a new lisp dialect?
 
-. It is lisp. Along with Fortran it is the oldest high-level programming language still in use today. That alone should be a reason top look closer at it.
+- It is lisp. Along with Fortran it is the oldest high-level programming language still in use today. That alone should be a reason top look closer at it.
+
+- It is lisp. Following the principle of "least surprise", this means that almost any buzzword-/du jour/ or current hype/fad, in whatever programming language the hipsters of today use, has already been supported for nearly 50 years and there is an existing support framework of established best practices for how to work with it. This enables me to knowingly interject "well, /actually/ …" into almost any conversation, which makes me a shining beacon around which any office party centers.
 
 - It is not tied in to Emacs. To me personally this is not necessarily a benefit, but if I am going to use it in teaching, it may mean that the entry treshold is lowered.
 
